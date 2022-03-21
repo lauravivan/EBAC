@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+        <link type="text/css" rel="stylesheet" href="./css/style.css">
+        <title>Módulo 06</title>
+    </head>
+    <body>
+        <div class="page">
+            <header>
+                <h1 id="page-title">Cadastro de análise de filmes</h1>
+            </header>
+    
+            <section>
+                <form method="post">
+                    <div>
+                        <h3 class="division">Ficha técnica</h3>
+                        <div class="box">
+                            <div class="box-separator">
+                                <div class="box-itens">
+                                    <label for="original-name">Nome original</label>
+                                    <input type="text" name="original-name" required>
+                                </div>
+                                <div class="box-itens">
+                                    <label for="direction">Direção</label>
+                                    <input type="text" name="direction" required>
+                                </div>
+                            </div>
+                            <div class="box-separator">
+                                <div class="box-itens">
+                                    <label for="main-actors">Atores principais</label>
+                                    <input type="text" name="main-actors" required>
+                                </div>
+                                <div class="box-itens">
+                                    <label for="launch-date">Data de lançamento</label>
+                                    <input type="date" name="launch-date" required>
+                                </div>
+                            </div>
+                            <div class="box-separator">
+                                <div class="box-itens">
+                                    <label for="country">País</label>
+                                    <input type="text" name="country" required>
+                                </div>
+                                <div class="box-itens">
+                                    <label for="duration">Duração (min)</label>
+                                    <input type="number" name="duration" required>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <h3 class="division">Sinopse</h3>
+                        <div class="aligment">
+                            <textarea placeholder="Qual a sinopse do filme?" rows="10" cols="50" required></textarea>
+                        </div>
+                    </div>
+                    <div>
+                        <h3 class="division">Género/s</h3>
+                        <ul class="list aligment">
+                            <li>
+                                <input type="checkbox" name="comedy">Comédia
+                            </li>
+                            <li>
+                                <input type="checkbox" name="romance">Romance
+                            </li>
+                            <li>
+                                <input type="checkbox" name="epic">Épico
+                            </li>
+                            <li>
+                                <input type="checkbox" name="historical">Histórico
+                            </li>
+                            <li>
+                                <input type="checkbox" name="sci-fic">Ficção científica
+                            </li>
+                            <li>
+                                <input type="checkbox" name="drama">Drama
+                            </li>
+                            <li>
+                                <input type="checkbox" name="horror">Terror
+                            </li>
+                            <li>
+                                <input type="checkbox" name="adventure">Aventura
+                            </li>
+                            <li>
+                                <input type="checkbox" name="others">Outros
+                            </li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h3 class="division">Detalhes da história</h3>
+                        <div class="box">
+                            <div class="box-separator">
+                                <div class="box-itens">
+                                    <label for="original-name">Local</label>
+                                    <input type="text" name="original-name" placeholder="Onde ela ocorre?">
+                                </div>
+                                <div class="box-itens">
+                                    <label for="direction">Tempo</label>
+                                    <input type="text" name="direction" placeholder="Quando ela ocorre?">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <h3 class="division">O tempo é cronológico ou psicológico?</h3>
+                        <div class="aligment">
+                            <input type="radio" name="time-type">Cronológico
+                            <input type="radio" name="time-type">Psicológico
+                        </div>
+                    </div>
+                    <div>
+                        <h3 class="division">Há flashbacks?</h3>
+                        <div class="aligment">
+                            <input type="radio" name="flashbacks">Sim
+                            <input type="radio" name="flashbacks">Não
+                        </div>
+                    </div>
+
+                    <div id="button-box">
+                        <input type="submit" id="button" placeholder="Enviar">
+                    </div>
+                </form>
+            </section>
+
+            <div class="separator"></div>
+    
+            <footer class="credits">
+                <p>Desenvolvido por Laura</p>
+            </footer>
+        </div>
+    </body>
+</html>

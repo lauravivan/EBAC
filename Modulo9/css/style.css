@@ -1,0 +1,354 @@
+body {
+    font-family: 'Fredoka', sans-serif;
+}
+
+.main-box {
+    display: flex;
+    margin: 5px;
+}
+
+.bigger-box {
+    width: 75%;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+nav, header, section, article, footer {
+    border-radius: 5px;
+}
+
+nav {
+    background-color: #396789;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px 0px;    
+}
+
+.menu-item > a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.menu-item:hover > a {
+    font-weight: 700;
+}
+
+header {
+    background: url("https://i.pinimg.com/originals/14/95/15/1495150d56f555424465b293b6a9244a.jpg") #000;
+    background-size: cover;
+    padding: 150px 0px 150px 20px;
+}
+
+.page-title {
+    font-size: 3rem;
+    font-weight: 700;
+    color: #fff;
+    filter: drop-shadow(1px 1px 3px #000);
+}
+
+section {
+    background-color: #b3aebc;
+    padding: 30px 0px;
+}
+
+section span, article span {
+    padding-left: 20px;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.section-cards {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.card {
+    border: 1px solid #7f8c8d;
+    border-radius: 3px;
+    padding: 10px;
+}
+
+.card figure {
+    text-align: center;
+    line-height: 2;
+}
+
+.card:hover {
+    cursor: pointer;
+    border: 1px solid #000;
+}
+
+.card img {
+    filter: grayscale(100%) opacity(90%);
+}
+
+.card:hover img {
+    filter: grayscale(0%) opacity(100%);
+}
+
+.card, .card img {
+    width: 20vw;
+}
+
+.card:hover, .card:hover img {
+    width: 21vw;
+}
+
+.card figcaption {
+    font-size: 1.2rem;
+}
+
+article span, article #maps {
+    display: none;
+}
+
+article #video {
+    border-radius: 5px;
+    height: 400px;
+    width: 100%;
+}
+
+footer {
+    text-align: center;
+    background-color: #92a4b3;
+    padding: 40px 0px;
+}
+
+footer span {
+    font-weight: 400;
+    font-size: 1rem;
+}
+
+.box {
+    width: 24.5%;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    right: 5px;
+    position: fixed;
+}
+
+.box img {
+    border-radius: 5px;
+    height: 70vh;
+}
+
+.box iframe {
+    border-radius: 3px;
+    height: 27vh;
+}
+
+.box:hover img {
+    filter: opacity(90%);
+}
+
+
+@media (max-width: 1100px) {
+
+    .main-box {
+        margin: 0;
+    }
+
+    .bigger-box {
+        width: 100vw;
+        gap: 0px;
+    }
+
+    nav, header, section, article, footer {
+        border-radius: 0px;
+    }
+
+    nav {
+        background-color: #fab1a0;
+    }
+    
+    .menu {
+        font-size: 1.1rem;
+    }
+
+    .menu-item > a {
+        color: #000;
+    }
+   
+    header {
+        background: url("../img/paris.jpg") #000;
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding: 240px 0px;
+        text-align: center;
+    }
+
+    .page-title {
+        color: #000;
+        font-size: 4rem;
+        filter: drop-shadow(1px 1px 2px #fff);
+    }
+
+    section {
+        border-bottom: 1px solid #333;
+        background-color: #e1e3e4;
+        padding: 40px 0 80px 0;
+    }
+
+    section span, article span {
+        padding-left: 40px;
+        font-size: 2rem;
+    }
+    
+    .section-cards {
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+    }
+
+    .card, .card img {
+        width: 70vw;
+    }
+
+    .card:hover, .card:hover img {
+        width: 73vw;
+    }
+
+    article {
+        background-color: #e1e3e4;
+        padding: 70px 0 80px 0;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+    
+    article span, article #maps {
+        display: initial;
+    }
+
+    .article-box {
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        align-items: center;
+    }
+
+    article #video, article #maps {
+        width: 80vw;
+        height: 400px;
+        border-radius: 0px;
+    }
+
+    footer {
+        background-color: #fab1a0;
+    }
+
+    footer span {
+        font-size: 1.5rem;
+    }
+
+    .box {
+        display: none;
+    }
+}
+
+
+/* smartphone */
+@media (min-width: 240px) and (max-width: 490px) {
+
+    .main-box {
+        margin: 0;
+    }
+
+    .bigger-box {
+        width: 100vw;
+        gap: 0px;
+    }
+
+    nav, header, section, article, footer {
+        border-radius: 0px;
+    }
+
+    nav {
+        background-color: #fab1a0;
+    }
+    
+    .menu {
+        font-size: 1rem;
+    }
+    
+    .menu-item > a {
+        color: #000;
+    }
+   
+    header {
+        text-align: center;
+        background: url("../img/paris.jpg") #000;
+        background-size: cover;
+        padding: 250px 0;
+    }
+
+    .page-title {
+        color: #000;
+        filter: drop-shadow(1px 1px 1px #fff);
+        font-size: 2.5rem;
+    }
+
+    section {
+        border-bottom: 1px solid #333;
+        background-color: #e1e3e4;
+        padding: 30px 0 80px 0;
+    }
+
+    section span, article span {
+        padding-left: 20px;
+        font-size: 1.3rem;
+    }
+    
+    .section-cards {
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+    }
+
+    .card, .card img {
+        width: 85vw;
+    }
+
+    .card:hover, .card:hover img {
+        width: 88vw;
+    }
+
+    article {
+        background-color: #e1e3e4;
+        padding: 40px 0 60px 0;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    article span, article #maps {
+        display: initial;
+    }
+
+    .article-box {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        align-items: center;
+    }
+    
+    article #video, article #maps {
+        width: 90vw;
+        height: 350px;
+        border-radius: 0px;
+    }
+
+    footer span {
+        font-size: 17px;
+    }
+    
+    .box {
+        display: none;
+    }
+}

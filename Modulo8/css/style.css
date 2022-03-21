@@ -1,0 +1,323 @@
+html {
+  overflow-x: hidden;
+}
+
+header {
+  background: url("https://my4kwallpapers.com/wp-content/uploads/2021/07/Anime-Girl-Wallpaper.jpg") #000;
+  height: 96vh;
+  width: 100vw;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+}
+
+h1 {
+  font-family: 'Megrim', cursive;
+  color: #000;
+  font-size: 4rem;
+  margin-left: 10px;
+}
+
+main div {
+  height: 95vh;
+  width: 100vw;
+  font-family: 'Grandstander', cursive;
+}
+
+main > div {
+  background-color: #7026b5;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+nav {
+  text-align: center;
+  margin-right: 100px;
+}
+
+.list-items-title {
+  font-size: 3rem;
+  font-weight: 400;
+  font-style: italic;
+  margin-bottom: 20px;
+}
+
+.list-items {
+  font-size: 2rem;
+  text-decoration: none;
+  color: #000;
+  font-weight: 200;
+  line-height: 1.5;
+}
+
+.list-items:hover {
+  text-decoration: underline;
+  color: #d387ee;
+  font-weight: 800;
+}
+
+.page-three {
+  background-color: #1f1a87;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.page-three ul {
+  text-align: center;
+  margin-left: 40px;
+}
+
+.page-three ul img {
+  width: 7vw;
+}
+
+.page-three ul img:hover {
+  width: 8vw;
+}
+
+
+/* table page */
+.welcome {
+  background: none;
+  height: 90vh;
+}
+
+.welcome h1 {
+  text-align: center;
+  font-size: 4rem;
+}
+
+.table-box {
+  height: 100vh;
+  width: 100vw;
+  background-color: #e4cef9;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+table {
+  background-color: #719de2;
+  border-radius: 10px;
+  width: 70vw;
+  border: 2px solid #000;
+  font-family: 'Grandstander', cursive;
+}
+
+table tr:nth-child(even) {
+  background-color: #d387ee;
+}
+
+thead {
+  background-color: #05042f;
+}
+
+thead th {
+  padding: 20px;
+  border: 2px solid #fff;
+  font-weight: 700;
+  color: #fff;
+}
+
+tbody td {
+  padding: 20px;
+  border: 2px solid #fff;
+}
+
+.bolder-font {
+  font-weight: 700;
+}
+
+
+/* movies page */
+.movies-welcome {
+  background: none;
+  justify-content: center;
+  height: 90vh;
+}
+
+.form-box {
+  background-color: #7026b5;
+  font-family: 'Grandstander', cursive;
+  padding: 100px 0;
+  display: flex;
+  justify-content: center;
+  width: 100vw;
+}
+
+.niche {
+  display: flex;
+  flex-direction: column;
+  width: 40vw;
+  height: fit-content;
+  margin-bottom: 60px;
+}
+
+.niche h3 {
+  color: #fff;
+  font-size: 2.5rem;
+  font-weight: 800;
+  margin-bottom: 20px;
+}
+
+.niche label, .niche input {
+  margin: 10px 0;
+}
+
+input[type="text"], 
+input[type="date"],
+input[type="number"] {
+  border: none;
+  border-radius: 5px;
+  padding: 15px;
+  background-color: #e4cef9;
+  box-shadow: 1px 1px 3px #000;
+}
+
+input[type="text"]:focus,
+input[type="date"]:focus,
+input[type="number"]:focus,
+textarea:focus {
+  background-color: #d387ee;
+}
+
+textarea {
+  padding: 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #e4cef9;
+  box-shadow: 1px 1px 3px #000;
+}
+
+textarea::placeholder, input[type="text"]::placeholder {
+  font-family: 'Grandstander', cursive;
+}
+
+.niche ul {
+  text-align: center;
+}
+
+.niche ul li {
+  line-height: 2;
+  font-size: 1.3rem;
+  font-weight: 500;
+}
+
+.niche-special {
+  font-size: 1.3rem;
+  font-weight: 500;
+}
+
+.niche input[type="submit"] {
+  text-align: center;
+  font-family: 'Grandstander', cursive;
+  padding: 15px;
+  margin: 0 200px;
+  font-size: 1.3rem;
+}
+
+.niche input[type="submit"]:hover {
+  background-color: #d387ee;
+  border: none;
+  height: 8vh;
+  cursor: pointer;
+  font-size: 1.4rem;
+  border-radius: 50px;
+}
+
+
+/*blog page*/
+
+.blog-welcome {
+  background: none;
+  justify-content: center;
+  height: 80vh;
+}
+
+section {
+  display: flex;
+  height: fit-content;
+  flex-direction: row;
+  background: none;
+  font-family: 'Grandstander', cursive;
+}
+
+section nav {
+  background-color: #05042f;
+  color: #fff;
+  width: 30vw;
+  padding: 40px;
+  margin: 0;
+}
+
+section nav h3 {
+  font-size: 3rem;
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+.articles-list {
+  margin-left: 70px;
+}
+
+.articles-list li {
+  list-style-type: upper-roman;
+  line-height: 2;
+  text-align: start;
+}
+
+.articles-list li a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 1.5rem;
+}
+
+section .articles-list li a:hover {
+  text-decoration: underline;
+  color: #e4cef9;
+  font-weight: 900;
+}
+
+section article {
+  background-color: #d387ee;
+  padding: 100px;
+  width: 70vw;
+  text-align: justify;
+  font-family: 'Dawning of a New Day', cursive;
+  font-size: 2rem;
+}
+
+section article h3 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+
+footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Grandstander', cursive;
+  height: 90vh;
+  width: 100vw;
+  background: url("https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/88fc6ac7-9ac8-4b2d-b12f-3ad0ac6ee468/ded4m1p-2209d260-6ce0-463c-83ce-c31cca4dbbb1.jpg/v1/fill/w_1280,h_720,q_75,strp/katana_anime_girl_neon_4k_wallpaper_by_omegahd_ded4m1p-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9NzIwIiwicGF0aCI6IlwvZlwvODhmYzZhYzctOWFjOC00YjJkLWIxMmYtM2FkMGFjNmVlNDY4XC9kZWQ0bTFwLTIyMDlkMjYwLTZjZTAtNDYzYy04M2NlLWMzMWNjYTRkYmJiMS5qcGciLCJ3aWR0aCI6Ijw9MTI4MCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.wNdPlVcL4-gT7RpUmWyrZET2FQkLvHja6TmSOgpTTY0") #000;
+  background-size: cover;
+  opacity: .8;
+  font-size: 2rem;
+  font-weight: 600;
+  color: #05042f;
+}
+
+footer a {
+  color: #e4cef9;
+}
+
+footer a:hover {
+  font-size: 2.1rem;
+}

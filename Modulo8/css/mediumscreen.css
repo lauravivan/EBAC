@@ -1,0 +1,108 @@
+header {
+    height: 90vh;
+}
+
+h1 {
+    font-size: 6rem;
+    text-align: center;
+}
+
+main div {
+    height: 90vh;
+}
+
+.list-items-title {
+    font-size: 4rem;
+}
+
+.list-items {
+    font-size: 2.5rem;
+}
+
+.page-three ul img {
+    width: 12vw;
+}
+
+.page-three ul img:hover {
+    width: 13vw;
+}
+
+/* table page */
+
+.welcome h1 {
+    font-size: 4rem;
+}
+
+.table-box {
+    height: fit-content;
+    padding: 100px 0;
+}
+
+table {
+    width: 80vw;
+    height: 50vh;
+    font-size: 1.1rem;
+}
+
+table th {
+    padding: 15px;
+}
+
+table td {
+    padding: 15px;
+}
+
+
+/* movies page */
+
+.movies-welcome h1 {
+    font-size: 2.7rem;
+}
+
+.niche {
+    margin-bottom: 80px;
+    width: 80vw;
+}
+
+.niche h3 {
+    font-size: 3rem;
+    margin-bottom: 30px;
+}
+
+.niche label, .niche input {
+    font-size: 2rem;
+}
+
+textarea::placeholder, input[type="text"]::placeholder {
+    font-size: 1.5rem;
+}
+
+.niche ul li {
+    font-size: 2rem;
+}
+
+.niche-special {
+    font-size: 2rem;
+}
+
+.niche input[type="submit"] {
+    margin: 0 250px;
+    font-size: 2rem;
+    padding: 30px;
+}
+
+.niche input[type="submit"]:hover {
+    font-size: 2.1rem;
+}
+
+
+/*blog page*/
+
+.articles-list {
+    margin-left: 50px;
+}
+
+
+footer {
+    height: 50vh;
+}

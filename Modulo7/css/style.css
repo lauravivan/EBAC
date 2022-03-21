@@ -1,0 +1,59 @@
+body {
+    margin: 0 auto;
+    width: 80vw;
+    background: url('https://besthqwallpapers.com/Uploads/13-1-2021/151483/thumb2-math-blackboard-texture-background-with-geometric-shapes-math-background-math-texture-geometric-lines-shapes-texture.jpg') #000;
+}
+
+header {
+    padding: 50px 0;
+    font-size: 3rem;
+    text-align: center;
+}
+
+h1 {
+    font-family: 'Monofett', cursive;
+    color: #fff;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+}
+
+table {
+    background-color: #e55039;
+    border-radius: 10px;
+    width: 70vw;
+    border: 2px solid #000;
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 40px;
+}
+
+table tr:nth-child(even) {
+    background-color: #82ccdd;
+}
+
+thead {
+    background-color: #f1c40f;
+}
+
+thead th {
+    padding: 20px;
+    border: 2px solid #000;
+    font-weight: 700;
+}
+
+tbody td {
+    padding: 20px;
+    border: 2px solid #000;
+}
+
+.bolder-font {
+    font-weight: 700;
+}
+
+footer {
+    color: #fff;
+    text-align: center;
+    font-weight: 700;
+}

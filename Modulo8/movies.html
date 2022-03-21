@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link type="text/css" href="./css/reset.css" rel="stylesheet">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+		<link href="https://fonts.googleapis.com/css2?family=Megrim&display=swap" rel="stylesheet">
+		
+		<link href="https://fonts.googleapis.com/css2?family=Grandstander:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,400&display=swap" rel="stylesheet">		
+
+        <link type="text/css" href="./css/style.css" rel="stylesheet">
+		<link type="text/css" href="./css/mediumscreen.css" rel="stylesheet" media="screen and (max-width: 900px) and (min-width: 500px)">
+		<link type="text/css" href="./css/smallscreen.css" rel="stylesheet" media="screen and (max-width: 490px) and (min-width: 200px)">
+        <title>Form - cadastrado de filmes</title>
+    </head>
+    <body>
+        <header class="movies-welcome">
+            <h1>Cadastro de análise de filmes</h1>
+        </header>
+
+        <main class="form-box">
+            <form method="post">
+                <div class="niche">
+                    <h3>Ficha técnica</h3>
+                    <label for="original-name">Nome original</label>
+                    <input type="text" name="original-name" required>
+
+                    <label for="direction">Direção</label>
+                    <input type="text" name="direction" required>
+
+                    <label for="main-actors">Atores principais</label>
+                    <input type="text" name="main-actors" required>
+
+                    <label for="launch-date">Data de lançamento</label>
+                    <input type="date" name="launch-date" required>
+
+                    <label for="country">País</label>
+                    <input type="text" name="country" required>
+
+                    <label for="duration">Duração (min)</label>
+                    <input type="number" name="duration" required>
+                </div>
+
+                <div class="niche">
+                    <h3>Sinopse</h3>
+                    <textarea placeholder="Qual a sinopse do filme?" rows="10" cols="50" required></textarea>
+                </div>
+
+                <div class="niche">
+                    <h3>Género/s</h3>
+                    <ul>
+                        <li>
+                            <input type="checkbox" name="comedy"> Comédia
+                        </li>
+                        <li>
+                            <input type="checkbox" name="romance"> Romance
+                        </li>
+                        <li>
+                            <input type="checkbox" name="epic"> Épico
+                        </li>
+                        <li>
+                            <input type="checkbox" name="historical"> Histórico
+                        </li>
+                        <li>
+                            <input type="checkbox" name="sci-fic"> Ficção científica
+                        </li>
+                        <li>
+                            <input type="checkbox" name="drama"> Drama
+                        </li>
+                        <li>
+                            <input type="checkbox" name="horror"> Terror
+                        </li>
+                        <li>
+                            <input type="checkbox" name="adventure"> Aventura
+                        </li>
+                        <li>
+                            <input type="checkbox" name="others"> Outros
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="niche">
+                    <h3>Detalhes da história</h3>
+
+                    <label for="original-name">Local</label>
+                    <input type="text" name="original-name" placeholder="Onde ela ocorre?">
+
+                    <label for="direction">Tempo</label>
+                    <input type="text" name="direction" placeholder="Quando ela ocorre?">
+                </div>
+
+                <div class="niche niche-special">
+                    <h3>O tempo é cronológico ou psicológico?</h3>
+
+                    <input type="radio" name="time-type">Cronológico
+                    <input type="radio" name="time-type">Psicológico
+                </div>
+
+                <div class="niche niche-special">
+                    <h3>Há flashbacks?</h3>
+
+                    <input type="radio" name="flashbacks">Sim
+                    <input type="radio" name="flashbacks">Não
+                </div>
+
+                <div class="niche">
+                    <input type="submit" placeholder="Enviar">
+                </div>
+            </form>
+        </main>
+        <footer>
+            <p>Desenvolvido por Laura</p>
+        </footer>
+    </body>
+</html>

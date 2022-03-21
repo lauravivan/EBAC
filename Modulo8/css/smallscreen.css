@@ -1,0 +1,115 @@
+h1 {
+    font-size: 4.5rem;
+    text-align: center;
+}
+
+main div {
+    height: 90vh;
+}
+
+.list-items-title {
+    font-size: 2rem;
+}
+
+.list-items {
+    font-size: 1rem;
+}
+
+.page-three ul {
+    text-align: center;
+    margin-left: 100px;
+}
+
+.page-three ul img {
+    width: 15vw;
+}
+
+.page-three ul img:hover {
+    width: 16vw;
+}
+
+
+/* table page */
+
+.welcome h1 {
+    font-size: 1.5rem;
+}
+
+.table-box {
+    height: fit-content;
+    padding: 70px 0;
+}
+
+table {
+    width: 80vw;
+    height: 50vh;
+    font-size: 0.5rem;
+}
+
+table th {
+    padding: 5px;
+}
+
+table td {
+    padding: 5px;
+}
+
+
+/* movies page */
+.movies-welcome {
+    background: none;
+}
+
+.niche {
+    margin-bottom: 80px;
+    width: 80vw;
+}
+
+.niche h3 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.niche input[type="submit"] {
+    margin: 0 80px;
+}
+
+
+/*blog page*/
+
+section nav {
+    background-color: #05042f;
+    color: #fff;
+    margin: 0;
+    padding: 20px;
+}
+
+section nav h3 {
+    font-size: 1rem;
+}
+
+.articles-list {
+    margin-left: 30px;
+}
+
+.articles-list li {
+    line-height: 1;
+}
+
+.articles-list li a {
+    font-size: 0.5rem;
+}
+
+section article {
+    background-color: #d387ee;
+    text-align: justify;
+    font-family: 'Dawning of a New Day', cursive;
+    padding: 20px;
+    font-size: 1rem;
+}
+
+
+footer {
+    height: 30vh;
+    font-size: 1rem;
+}

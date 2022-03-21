@@ -1,0 +1,145 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+	font-family: 'Roboto', sans-serif;
+}
+
+/* Style the header */
+header {
+  background-color: #000;
+  padding: 20px 30px;
+  text-align: center;
+  font-size: 35px;
+  color: white;
+}
+
+header p {
+	font-size: 20px;
+}
+
+header h2 {
+	margin-bottom: 0;
+}
+
+/* Create two columns/boxes that floats next to each other */
+nav {
+  float: left;
+  width: 25%;
+  background: #e1b12c;
+  padding: 30px;
+  height: 65vh;
+}
+
+/* Style the list inside the menu */
+.lista-redes-sociais {
+  list-style-type: none;
+  padding: 0;
+}
+
+.lista-paginas-favoritas {
+	line-height: 1.5;
+}
+
+.lista-paginas-favoritas__itens a, 
+.lista-redes-sociais__itens a {
+	text-decoration: none;
+	color: #2d3436;
+}
+
+.lista-paginas-favoritas__itens a:hover, 
+.lista-redes-sociais__itens a:hover {
+	font-size: 18px;
+	text-decoration: underline;
+	font-weight: 700;
+}
+
+.lista-redes-sociais__itens {
+	margin-left: 15px;
+}
+
+.lista-redes-sociais__itens #linkedin-icon {
+	width: 3vw;
+}
+
+.lista-redes-sociais__itens #linkedin-icon:hover {
+	width: 4vw;
+}
+
+article {
+  float: left;
+  padding: 30px;
+  width: 75%;
+  display: flex;
+  background-color: #ecf0f1;
+  justify-content: space-between;
+  height: 65vh;
+}
+
+.sobre {
+	border-right: solid 1px #2d3436;
+	padding-right: 130px;
+}
+
+.sobre h2 {
+	color: #2d3436;
+}
+
+.sobre p {
+	color: #2d3436;
+}
+
+form {
+	text-align: center;
+	padding: 50px 90px 0 0;
+}
+
+form input {
+	width: 12vw;
+}
+
+form textarea {
+	margin: 20px 0;
+	resize: none;
+	width: 18vw;
+	height: 13vh;
+}
+
+form button {
+	font-size: 15px;
+}
+
+/* Clear floats after the columns */
+section::after {
+  background: #ccc;
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Style the footer */
+footer {
+  background-color: #2d3436;
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+
+footer a {
+	text-decoration: none;
+	color: #fff;
+}
+
+footer a:hover {
+	text-decoration: underline;
+	color: #f1c40f;
+}
+
+/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+@media (max-width: 600px) {
+  nav, article {
+    width: 100%;
+    height: auto;
+  }
+}
