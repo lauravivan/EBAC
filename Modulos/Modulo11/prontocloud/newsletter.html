@@ -16,25 +16,85 @@
             font-size: 62.5%;
         }
 
+        table {
+            margin: 20px auto;
+        }
+
         img {
             max-width: 100%;
             height: auto;
         }
 
-        @media (max-width: 600px) {
+        h2 {
+            font-size: 16px;
+            margin-top: 30px;
+        }
+
+        p {
+            font-size: 13px;
+        }
+
+        #button {
+            text-align: center;
+            padding-bottom: 50px;
+        }
+
+        #button span {
+            background-color: #385874; 
+            border-radius: 10px; 
+            color: #fff;
+            padding: 20px;
+        }
+
+        #button span a {
+            font-size: 20px; 
+            text-decoration: none; 
+            color: #fff;
+        }
+
+        @media (max-width: 425px) {
+            html, body {
+                padding: 0;
+                margin: 0;
+                border: 0;
+            }
+
             table {
                 width: 100% !important;
                 min-width: 320px;
+                height: 100vh;
+                margin: 0;
             }  
-            h1 {
-                font-size: 1.rem;
+
+            h1{
+                font-size: 2rem;
             }
+
+            h2 {
+                font-size: 1.9rem;
+            }
+
+            p {
+                font-size: 1.4rem;
+            }
+
+            #content div {
+                margin-top: 30px;
+            }
+
+            #button span {
+            }
+
+            #button span a {
+                font-size: 18px;
+            }
+
         }
     </style>
 </head>
 <body style="background-color: #f0f0f0;">
 
-    <table style="background:#fff; width: 600px; margin: 20px auto; font-family: sans-serif;">
+    <table style="background:#fff; width: 600px; font-family: sans-serif;">
         <tr>
             <td style="width: 10px;"></td>
             <td>
@@ -43,7 +103,7 @@
             </td>
             <td style="width: 10px;"></td>
         </tr>
-        <tr>
+        <tr id="content">
             <td style="width: 10px;"></td>
             <td>
                 <div style="padding: 20px;">
@@ -67,9 +127,8 @@
             <td style="width: 10px;"></td>
         </tr>
         <tr>
-            <td colspan="3">
-                <span style="background-color: #385874; display: block; padding: 10px 5px 7px; margin: 0 auto;  width: 300px; height: 30px; text-align: center;  margin-bottom: 30px; border-radius: 10px; color: #fff;" >
-                <a style="font-size: 20px; text-decoration: none; color: #fff;" href="#">Conheça nossas soluções</a></span>
+            <td id="button" colspan="3">
+                <span><a href="#">Conheça nossas soluções</a></span>
             </td>
         </tr>
     </table>
