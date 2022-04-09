@@ -16,8 +16,15 @@
             font-size: 62.5%;
         }
 
+        #page-icon {
+            border: 0;
+            display: block;
+            margin: 20px 20px 0;
+        }
+
         table {
             margin: 20px auto;
+            width: 600px;
         }
 
         img {
@@ -32,6 +39,10 @@
 
         p {
             font-size: 13px;
+        }
+
+        #content div {
+            padding: 20px;
         }
 
         #button {
@@ -53,96 +64,90 @@
         }
 
         @media (max-width: 900px) {
-            html, body {
-                padding: 0;
+
+            body {
                 margin: 0;
-                border: 0;
+                padding: 0;
+            }
+
+            #page-icon {
+                margin: 0;
+                margin-top: 20px;
+                margin-left: 30px;
             }
 
             table {
-                width: 100% !important;
-                min-width: 320px;
-                height: 100vh;
+                width: 100vw;
                 margin: 0;
             }
 
-            h1 {
-                font-size: 2rem;
-            }
-
-            h2 {
-                font-size: 1.9rem;
-            }
-
-            p {
-                font-size: 1.4rem;
-            }
-
-            #content div {
+            #content h1 {
                 margin-top: 30px;
             }
 
-            #button span {
-                padding: 30px;
-            }
-
-            #button span a {
-                font-size: 25px;
+            #content h2 {
+                margin-bottom: 10px;
             }
         }
 
         @media (max-width: 425px) {
-            html, body {
-                padding: 0;
+
+            body {
                 margin: 0;
-                border: 0;
+                padding: 0;
+            }
+
+            #page-icon {
+                margin: 0;
+                margin-top: 20px;
             }
 
             table {
-                width: 100% !important;
-                min-width: 320px;
-                height: 100vh;
+                width: 100vw;
                 margin: 0;
-            }  
-
-            h1 {
-                font-size: 2rem;
-            }
-
-            h2 {
-                font-size: 1.9rem;
-            }
-
-            p {
-                font-size: 1.4rem;
             }
 
             #content div {
+                padding: 0;
+            }
+
+            #content h1 {
                 margin-top: 30px;
             }
 
-            #button span a {
-                font-size: 18px;
+            #content h2 {
+                margin-bottom: 10px;
             }
 
+            #button {
+                padding: 30px 0;
+            }
+
+            #button span {
+                padding: 15px;
+            }
+
+            #button span a {
+                font-size: 16px;
+            }
         }
     </style>
 </head>
 <body style="background-color: #f0f0f0;">
 
-    <table style="background:#fff; width: 600px; font-family: sans-serif;">
+    <table style="background:#fff; font-family: sans-serif;">
         <tr>
             <td style="width: 10px;"></td>
             <td>
                 <a href="#">
-                <img style="border: 0; display: block; margin: 20px 20px 0;" src="https://prontocloud.com.br/wp-content/uploads/2015/05/prontocloud.png" alt="ProntoCloud"></a>
+                <img id="page-icon" src="https://prontocloud.com.br/wp-content/uploads/2015/05/prontocloud.png" alt="ProntoCloud"></a>
             </td>
             <td style="width: 10px;"></td>
         </tr>
         <tr id="content">
             <td style="width: 10px;"></td>
             <td>
-                <div style="padding: 20px;">
+                <div>
                     <h1 style="color: #385874;">Aprenda a criar o site de seu negócio</h1>
 
                     <a href="#"><img style="border: 0; display: block; margin-bottom: 10px;"  src="https://prontocloud.com.br/wp-content/uploads/2015/11/manutencao-de-sites-700x300.jpg" alt="Aprenda a criar o site de seu negócio"></a>
