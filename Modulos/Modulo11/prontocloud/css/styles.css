@@ -121,14 +121,18 @@ section article {
     background-color: #b8c8d6;
 }
 
-.c-safari {
+.cognito {
     margin: 0 !important;
     padding: 0 !important;
+    height: 350px !important;
+}
+
+.cognito > div {
+    visibility: hidden !important;
 }
 
 .c-forms-form {
     background-color: #b8c8d6 !important;
-    width: 50%;
 }
 
 #tenho-interesse .cognito .c-forms-form .c-forms-form-title h2,
@@ -148,14 +152,6 @@ footer p {
 
 footer small {
     font-size: 80%;
-}
-
-.cognito {
-    height: 350px !important;
-}
-
-.cognito > div {
-    visibility: hidden !important;
 }
 
 
