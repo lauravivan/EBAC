@@ -121,7 +121,24 @@ section article {
     background-color: #b8c8d6;
 }
 
+.tenho-interesse-box {
+    margin: 0;
+    padding: 0;
+}
+
+.tenho-interesse-box article > h1, .tenho-interesse-box article > p {
+    margin-left: 30px;
+}
+
+.cognito-wrapper {
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .cognito {
+    width: 70% !important;
     margin: 0 !important;
     padding: 0 !important;
     height: 350px !important;
