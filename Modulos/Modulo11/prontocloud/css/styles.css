@@ -126,22 +126,24 @@ section article {
     padding: 0;
 }
 
+.tenho-interesse-box article {
+    width: 100%;
+}
+
 .tenho-interesse-box article > h1, .tenho-interesse-box article > p {
-    margin-left: 30px;
+    text-align: center;
 }
 
 .cognito-wrapper {
-    width: 100vw;
     display: flex;
     justify-content: center;
-    align-items: center;
 }
 
 .cognito {
-    width: 70% !important;
     margin: 0 !important;
     padding: 0 !important;
     height: 350px !important;
+    width: 30% !important;
 }
 
 .cognito > div {
