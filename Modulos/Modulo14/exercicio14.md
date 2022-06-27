@@ -1,6 +1,6 @@
-#__Exercício Módulo 14__
+# __Exercício Módulo 14__
 
-###Lista de exercícios
+### Lista de exercícios
 
 1. Resolva as operações:
 * 10 + 15 = __25 (integer)__
