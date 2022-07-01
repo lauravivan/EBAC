@@ -3,12 +3,12 @@
 ### Lista de exercícios
 
 1. Resolva as operações:
-* 10 + 15 = __25 (integer)__
+* 10 + 15 = __25 (number)__
 * “10” + 2 = __“102” (string)__
-* “10” * 2 = __20 (integer)__
-* “10” / 3 = __3.3333333333333335 (float)__
-* “10” % 3 = __1 (integer)__
-* 10 + true = __11 (integer)__
+* “10” * 2 = __20 (number)__
+* “10” / 3 = __3.3333333333333335 (number)__
+* “10” % 3 = __1 (number)__
+* 10 + true = __11 (number)__
 * 10 == ”10” = __true (boolean)__
 * 10 === “10” = __false (boolean)__
 * 10 < 11 = __true (boolean)__
@@ -16,23 +16,23 @@
 * 10 <= 10.1 = __true (boolean)__
 * 10 > 9.99 = __true (boolean)__
 * 10 != “dez” = __true (boolean)__
-* 10 + true = __11 (integer)__
+* 10 + true = __11 (number)__
 * “dez” + true = __“deztrue” (string)__
-* 10 + false = __10 (integer)__
-* 10 * false = __0 (integer)__
-* true + true = __2 (integer)__
+* 10 + false = __10 (number)__
+* 10 * false = __0 (number)__
+* true + true = __2 (number)__
 * 10++ = __Uncaught SyntaxError: invalid left-hand side operation__
 * 10-- = __Uncaught SyntaxError: invalid left-hand side operation__
-* 1 & 1 = __1 (integer)__
-* 1 & 0 = __0 (integer)__
-* 0 & 0 = __0 (integer)__
-* 1 & 0 = __0 (integer)__
-* 0 / 1 = __0 (integer)__
+* 1 & 1 = __1 (number)__
+* 1 & 0 = __0 (number)__
+* 0 & 0 = __0 (number)__
+* 1 & 0 = __0 (number)__
+* 0 / 1 = __0 (number)__
 * 5 + 5 == 10 = __true (boolean)__
 * “5” + ”5” == 10 = __false (boolean)__
 * “5” * 2 > 9 = __true (boolean)__
-* (10 + 10) * 2 = __40 (integer)__
-* 10 + 10 * 2 = __30 (integer)__
+* (10 + 10) * 2 = __40 (number)__
+* 10 + 10 * 2 = __30 (number)__
 
 2. Responda as perguntas de acordo com as variáveis:
 var branco = “preto”; 
