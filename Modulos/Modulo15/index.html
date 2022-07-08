@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link type="text/css" rel="stylesheet" href="./css/reset.css">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;900&display=swap" rel="stylesheet">
+
+        <link type="text/css" rel="stylesheet" href="./css/style.css">
+
+        <title>Cadastro de Pessoas Físicas</title>
+    </head>
+    <body>
+
+        <div class="container" id="container">
+            <div class="container__header">
+                <h1 class="header__title">Cadastro de Pessoas Físicas</h1>
+                <p><small class="header__subtitle">Preencha os campos corretamente</small></p>
+            </div>
+        
+            <form class="container__form" id="form">
+                <div class="form__box">
+                    <div class="box__subject">
+                        <label for="name">Nome</label>
+                        <input type="text" id="name" name="name" placeholder="Nome" autocomplete="off">
+                    </div>
+                    <div class="box__subject">
+                        <label for="surname">Sobrenome</label>
+                        <input type="text" id="surname" name="surname" placeholder="Sobrenome" autocomplete="off">
+                    </div>
+                </div>
+
+                <div class="form__box">
+                    <div class="box__subject">
+                        <label for="birth">Data de Nascimento</label>
+                        <input type="text" id="birth" name="birth" placeholder="Data de Nascimento" autocomplete="off">
+                    </div>
+                    <div class="box__subject">
+                        <label for="age">Idade</label>
+                        <input type="text" id="age" name="age" placeholder="Idade" autocomplete="off">
+                    </div>
+                </div>
+
+                <div class="form__box">
+                    <div class="box__subject">
+                        <label for="cpf">CPF</label>
+                        <input type="text" id="cpf" name="cpf" placeholder="CPF" autocomplete="off">
+                    </div>
+                    <div class="box__subject">
+                        <label for="rg">RG</label>
+                        <input type="text" id="rg" name="rg" placeholder="RG" autocomplete="off">
+                    </div>
+                </div>
+
+                <div class="form__adress">
+                    <div class="box__subject">
+                        <label for="adress">Endereço</label>
+                        <input type="text" id="adress" name="adress" placeholder="Endereço" autocomplete="off">
+                    </div>
+                    <div class="box__subject">
+                        <label for="home-number">Número</label>
+                        <input type="text" id="home-number" name="home-number" placeholder="Número" autocomplete="off">
+                    </div>
+                    <div class="box__subject">
+                        <label for="city">Cidade</label>
+                        <input type="text" id="city" name="city" placeholder="Cidade" autocomplete="off">
+                    </div>
+                    <div class="box__subject">
+                        <label for="uf">UF</label>
+                        <input type="text" id="uf" name="uf" placeholder="UF" autocomplete="off">
+                    </div>
+                </div>
+
+                <div class="form__box">
+                    <div class="box__subject">
+                        <label for="email">E-mail para contato</label>
+                        <input type="text" id="email" name="email" placeholder="E-mail" autocomplete="off">
+                    </div>
+                    <div class="box__subject">
+                        <label for="cellnumber">Celular</label>
+                        <input type="text" id="cellnumber" name="cellnumber" placeholder="Celular" autocomplete="off">
+                    </div>
+                </div>
+
+                <button class="btn">Enviar</button>
+            </form>
+        </div>
+        
+        <script type="text/javascript" src="./js/script.js"></script>
+    </body>
+</html>
