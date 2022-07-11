@@ -67,25 +67,24 @@ function validateAgeField(key, ageValue, errorColor) {
     if (!(ageValue.match(/^\d+$/))) {
         createAlert(key, "Informe uma idade válida", errorColor);
         document.getElementById(key).classList.remove("input_sucess");
-    }
 
-    ageValue = Number(ageValue);
-    if (ageValue > 110) {
-        createAlert(key, "Informe uma idade válida", errorColor);
-        document.getElementById(key).classList.remove("input_sucess");
+        if (ageValue < 0 || ageValue > 110) {
+            createAlert(key, "Informe uma idade válida", errorColor);
+            document.getElementById(key).classList.remove("input_sucess");
+        }
     }
 }
 
 function validateCpfField(key, cpfValue, errorColor) {
-    if (!(cpfValue.match(/^(\d\d\d)\.?(\d\d\d)\.?(\d\d\d)-?(\d\d)$/))) {
-        createAlert(key, "Informe um CPF válido", errorColor);
+    if (!(cpfValue.match(/^\d{11}$/))) {
+        createAlert(key, "Exemplo: 00000000000", errorColor);
         document.getElementById(key).classList.remove("input_sucess");
     }
 }
 
 function validateRgField(key, rgValue, errorColor) {
-    if (!(rgValue.match(/^(\d)\.?(\d\d\d)-?(\d\d\d)$/))) {
-        createAlert(key, "Informe um RG válido", errorColor);
+    if (!(rgValue.match(/^\d{7}$/))) {
+        createAlert(key, "Exemplo: 0000000", errorColor);
         document.getElementById(key).classList.remove("input_sucess");
     }
 }
@@ -98,8 +97,8 @@ function validateHomeNumberField(key, homeNumberValue, errorColor) {
 }
 
 function validateUfField(key, ufValue, errorColor) {
-    if (!(ufValue.match(/^\D\D$/))) {
-        createAlert(key, "UF inválida", errorColor);
+    if (!(ufValue.match(/^\D{2}$/))) {
+        createAlert(key, "Exemplo: AA", errorColor);
         document.getElementById(key).classList.remove("input_sucess");
     }
 }
@@ -112,8 +111,8 @@ function validateEmailField(key, emailValue, errorColor) {
 }
 
 function validateCellNumberField(key, cellNumberValue, errorColor) {
-    if (!(cellNumberValue.match(/^\(?(\d\d)\)?(\d\d\d\d\d)-?(\d\d\d\d)$/))) {
-        createAlert(key, "Informe um número de celular válido", errorColor);
+    if (!(cellNumberValue.match(/^\d{11}$/))) {
+        createAlert(key, "Exemplo: 48999999999", errorColor);
         document.getElementById(key).classList.remove("input_sucess");
     }
 }
