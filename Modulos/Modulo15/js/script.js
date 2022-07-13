@@ -64,41 +64,36 @@ function validateBirthField(key, birthValue, errorColor) {
 }
 
 function validateAgeField(key, ageValue, errorColor) {
-    if (!(ageValue.match(/^\d+$/))) {
+    if (ageValue < 0 || ageValue > 110) {
         createAlert(key, "Informe uma idade válida", errorColor);
         document.getElementById(key).classList.remove("input_sucess");
-
-        if (ageValue < 0 || ageValue > 110) {
-            createAlert(key, "Informe uma idade válida", errorColor);
-            document.getElementById(key).classList.remove("input_sucess");
-        }
     }
 }
 
 function validateCpfField(key, cpfValue, errorColor) {
-    if (!(cpfValue.match(/^\d{11}$/))) {
-        createAlert(key, "Exemplo: 00000000000", errorColor);
+    if (!(cpfValue.match(/^\d{3}\d{3}\d{3}\d{2}$/))) {
+        createAlert(key, "Exemplo: 78465998361", errorColor);
         document.getElementById(key).classList.remove("input_sucess");
     }
 }
 
 function validateRgField(key, rgValue, errorColor) {
     if (!(rgValue.match(/^\d{7}$/))) {
-        createAlert(key, "Exemplo: 0000000", errorColor);
+        createAlert(key, "Exemplo: 7846599", errorColor);
         document.getElementById(key).classList.remove("input_sucess");
     }
 }
 
 function validateHomeNumberField(key, homeNumberValue, errorColor) {
-    if (!(homeNumberValue.match(/^\d+$/))) {
-        createAlert(key, "Número inválido", errorColor);
+    if (homeNumberValue < 0 || homeNumberValue > 10000) {
+        createAlert(key, "Informe um número válido entre 0 e 10000", errorColor);
         document.getElementById(key).classList.remove("input_sucess");
     }
 }
 
 function validateUfField(key, ufValue, errorColor) {
     if (!(ufValue.match(/^\D{2}$/))) {
-        createAlert(key, "Exemplo: AA", errorColor);
+        createAlert(key, "Exemplo: SC", errorColor);
         document.getElementById(key).classList.remove("input_sucess");
     }
 }
@@ -112,7 +107,7 @@ function validateEmailField(key, emailValue, errorColor) {
 
 function validateCellNumberField(key, cellNumberValue, errorColor) {
     if (!(cellNumberValue.match(/^\d{11}$/))) {
-        createAlert(key, "Exemplo: 48999999999", errorColor);
+        createAlert(key, "Exemplo: 48998975610", errorColor);
         document.getElementById(key).classList.remove("input_sucess");
     }
 }
