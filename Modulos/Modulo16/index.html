@@ -70,7 +70,7 @@
                                 <div class="card-body">
                                     <h5 class="card-title">Chocolate ao leite</h5>
                                     <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit</p>
-                                    <a class="btn btn-dark" href="#produto-2">ver produto</a>
+                                    <a class="btn btn-dark" data-bs-toggle="modal" data-bs-target="#modal-2">ver produto</a>
                                 </div>
                             </div>
         
@@ -79,7 +79,7 @@
                                 <div class="card-body">
                                     <h5 class="card-title">Chocolate branco</h5>
                                     <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit</p>
-                                    <a class="btn btn-dark" href="#produto-3">ver produto</a>
+                                    <a class="btn btn-dark" data-bs-toggle="modal" data-bs-target="#modal-3">ver produto</a>
                                 </div>
                             </div>
                         </div>      
@@ -137,30 +137,108 @@
             <div class="modal-dialog">
                 <div class="modal-content">
                     <div class="modal-header">
-                        <h5 class="modal-title">Produto 1</h5>
+                        <h5 class="modal-title">Produto: Barra de chocolate com avelã</h5>
                         <button class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                     </div>
                     <div class="modal-body">
-                        <h6>Confira o tamanho e os preços</h6>
-                        <table class="table table-hover table-striped">
+                        <h6>Confira as quantidades e os preços</h6>
+                        <table class="table table-striped">
                             <thead>
                                 <tr>
-                                    <th>Tamanho</th>
-                                    <th>Valor</th>
+                                    <th>Quantidades</th>
+                                    <th>Preços</th>
                                 </tr>
                             </thead>
                             <tbody>
                                 <tr>
-                                    <td>P</td>
-                                    <td>R$ 100</td>
+                                    <td>1</td>
+                                    <td>R$ 30</td>
                                 </tr>
                                 <tr>
-                                    <td>M</td>
-                                    <td>R$ 200</td>
+                                    <td>2</td>
+                                    <td>R$ 60</td>
                                 </tr>
                                 <tr>
-                                    <td>G</td>
-                                    <td>R$ 300</td>
+                                    <td>3</td>
+                                    <td>R$ 90</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal fade" id="modal-2">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title">Produto: Barra de chocolate ao leite</h5>
+                        <button class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <h6>Confira as quantidades e os preços</h6>
+                        <table class="table table-striped">
+                            <thead>
+                                <tr>
+                                    <th>Quantidades</th>
+                                    <th>Preços</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>1</td>
+                                    <td>R$ 20</td>
+                                </tr>
+                                <tr>
+                                    <td>2</td>
+                                    <td>R$ 40</td>
+                                </tr>
+                                <tr>
+                                    <td>3</td>
+                                    <td>R$ 60</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal fade" id="modal-3">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title">Produto: Barra de chocolate branco</h5>
+                        <button class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <h6>Confira as quantidades e os preços</h6>
+                        <table class="table table-striped">
+                            <thead>
+                                <tr>
+                                    <th>Quantidades</th>
+                                    <th>Preços</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>1</td>
+                                    <td>R$ 25</td>
+                                </tr>
+                                <tr>
+                                    <td>2</td>
+                                    <td>R$ 50</td>
+                                </tr>
+                                <tr>
+                                    <td>3</td>
+                                    <td>R$ 75</td>
                                 </tr>
                             </tbody>
                         </table>
