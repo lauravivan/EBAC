@@ -1,0 +1,29 @@
+body {
+    font-family: 'Cormorant SC', serif;
+}
+
+.container {
+    max-width: 100%;
+}
+
+.title-background {
+    background-color: rgb(120, 60, 0);
+    box-shadow: 1px 1px 20px inset #ae5618;
+}
+
+.cursor-pointer {
+    cursor: pointer;
+}
+
+.font-900 {
+    font-weight: 900;
+}
+
+header a:hover {
+    font-weight: 900;
+    text-decoration: underline;
+}
+
+#products .btn:hover {
+    font-size: 1.1rem;
+}
