@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="./libs/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Cormorant+SC:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+        <link rel="stylesheet" href="./assets/css/custom.css">
+        <title>Módulo 17</title>
+    </head>
+    <body>
+        <header>
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 col-lg-6 title-background">
+                        <h1 class="p-4 text-center text-white">ChocWorld</h1>
+                    </div>
+                    <div class="col-12 col-lg-6">
+                        <ul class="nav nav-fill">
+                            <li class="nav-item"><a class="nav-link text-reset cursor-pointer border-end active" href="#">Home</a></li>
+                            <li class="nav-item"><a class="nav-link text-reset cursor-pointer border-end" href="#about">Sobre</a></li>
+                            <li class="nav-item"><a class="nav-link text-reset cursor-pointer border-end" href="#products">Produtos</a></li>
+                            <li class="nav-item"><a class="nav-link text-reset cursor-pointer border-end" href="#contact">Contato</a></li>
+                            <li class="nav-item"><a class="nav-link text-reset cursor-pointer" href="./registration.html">Cadastra-se</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <section>
+            <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+    
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="ratio ratio-21x9">
+                            <img src="./assets/img/carousel-img-1.jpeg" class="img-fluid" alt="...">
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="ratio ratio-21x9">
+                            <img src="./assets/img/carousel-img-2.jpg" class="img-fluid" alt="...">
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="ratio ratio-21x9">
+                            <img src="./assets/img/carousel-img-3.jpg" class="img-fluid" alt="...">
+                        </div>
+                    </div>
+                </div>
+    
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </section>
+        
+        <section class="mt-5" id="about">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <h2>Sobre nós</h2>
+                        <p>Somos uma empresa fictícia especializada em chocolates dos mais diversos.</p>
+                    </div>
+                    <div class="col-12 mb-2">
+                        <div class="ratio ratio-21x9">
+                            <img src="./assets/img/choc-intro.jpg" alt="Dois tabletes de chocolate" class="img-fluid" loading="lazy">
+                        </div>
+                    </div>
+                    <div class="col-12 d-lg-none">
+                        <img src="./assets/img/choc-bottom.jpeg" alt="Vários pedaços de chocolate de vários sabores" class="img-fluid w-100" loading="lazy">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="mt-5" id="products">
+            <div class="container">
+                <div class="row">
+                    <div class="col">
+                        <h2>Produtos</h2>
+                        <div class="d-lg-flex gap-3 text-md-center">
+                            <div class="card mt-4 mb-4">
+                                <img src="./assets/img/choc-w-nuts.jpeg" alt="Chocolate com avelã" class="img-fluid">
+                                <div class="card-body">
+                                    <h5 class="card-title">Chocolate com avelã</h5>
+                                    <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit</p>
+                                    <a class="btn btn-dark" data-bs-toggle="modal" data-bs-target="#modal-1" >ver produto</a>
+                                </div>
+                            </div>
+        
+                            <div class="card mt-4 mb-4">
+                                <img src="./assets/img/choc-pure.jpeg" alt="Chocolate ao leite" class="img-fluid">
+                                <div class="card-body">
+                                    <h5 class="card-title">Chocolate ao leite</h5>
+                                    <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit</p>
+                                    <a class="btn btn-dark" data-bs-toggle="modal" data-bs-target="#modal-2">ver produto</a>
+                                </div>
+                            </div>
+        
+                            <div class="card mt-4 mb-4">
+                                <img src="./assets/img/white-choc.jpeg" alt="Chocolate branco" class="img-fluid">
+                                <div class="card-body">
+                                    <h5 class="card-title">Chocolate branco</h5>
+                                    <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit</p>
+                                    <a class="btn btn-dark" data-bs-toggle="modal" data-bs-target="#modal-3">ver produto</a>
+                                </div>
+                            </div>
+                        </div>      
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="mt-5" id="contact">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <h2>Contato</h2>
+                        <p>Ficou interessado? Preencha os campos do formulário para receber uma cotação.</p>
+                    </div>
+                    <div class="col-12">
+                        <form class="form d-grid gap-3">
+                            <div class="input-group">
+                                <input class="form-control" type="text" name="nome" placeholder="digite seu nome">
+                            </div>
+
+                            <div class="input-group">
+                                <input class="form-control" type="text" name="email" placeholder="digite seu email">
+                            </div>
+
+                            <div class="input-group">
+                                <textarea  class="form-control" name="" rows="5" placeholder="escreva aqui sua dúvida"></textarea>
+                            </div>
+
+                            <button type="submit" class="btn btn-lg btn-dark">Solicitar Cotação</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <footer class="bg-dark mt-5 p-5 d-md-flex d-lg-flex justify-content-md-between justify-content-lg-between">
+            <div class="mb-5">
+                <span class="text-white font-900 fs-2">ChocWorld</span>
+            </div>
+            <div class="d-flex flex-column mb-5">
+                <span class="text-white font-900">Produtos</span>
+                <span class="text-white">Chocolates</span>
+                <span class="text-white">Bebidas de chocolate</span>
+            </div>
+            <div class="d-flex flex-column">
+                <span class="text-white font-900">Contatos</span>
+                <span class="text-white">(48) 99999-9999</span>
+                <span class="text-white">chocworld@mail.com</span>
+            </div>
+        </footer>
+
+        <!-- modals -->
+        <div class="modal fade" id="modal-1">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title">Produto: Barra de chocolate com avelã</h5>
+                        <button class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <h6>Confira as quantidades e os preços</h6>
+                        <table class="table table-striped">
+                            <thead>
+                                <tr>
+                                    <th>Quantidades</th>
+                                    <th>Preços</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>1</td>
+                                    <td>R$ 30</td>
+                                </tr>
+                                <tr>
+                                    <td>2</td>
+                                    <td>R$ 60</td>
+                                </tr>
+                                <tr>
+                                    <td>3</td>
+                                    <td>R$ 90</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal fade" id="modal-2">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title">Produto: Barra de chocolate ao leite</h5>
+                        <button class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <h6>Confira as quantidades e os preços</h6>
+                        <table class="table table-striped">
+                            <thead>
+                                <tr>
+                                    <th>Quantidades</th>
+                                    <th>Preços</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>1</td>
+                                    <td>R$ 20</td>
+                                </tr>
+                                <tr>
+                                    <td>2</td>
+                                    <td>R$ 40</td>
+                                </tr>
+                                <tr>
+                                    <td>3</td>
+                                    <td>R$ 60</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal fade" id="modal-3">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title">Produto: Barra de chocolate branco</h5>
+                        <button class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <h6>Confira as quantidades e os preços</h6>
+                        <table class="table table-striped">
+                            <thead>
+                                <tr>
+                                    <th>Quantidades</th>
+                                    <th>Preços</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>1</td>
+                                    <td>R$ 25</td>
+                                </tr>
+                                <tr>
+                                    <td>2</td>
+                                    <td>R$ 50</td>
+                                </tr>
+                                <tr>
+                                    <td>3</td>
+                                    <td>R$ 75</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <script src="./libs/bootstrap/js/bootstrap.bundle.min.js"></script>
+    </body>
+</html>
