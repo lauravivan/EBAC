@@ -152,6 +152,10 @@ body {
         row-gap: 20px;
         margin-bottom: 20px;
     }
+
+    .box__content label {
+        font-size: 12px;
+    }
     
     .box__content input {
         font-size: 12px;
