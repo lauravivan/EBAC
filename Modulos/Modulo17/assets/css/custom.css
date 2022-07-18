@@ -2,30 +2,66 @@ body {
     font-family: 'Cormorant SC', serif;
 }
 
-header .container {
-    max-width: 100% !important;
+.container {
+    max-width: none !important;
 }
 
-.title-background {
-    background-color: rgb(120, 60, 0);
-    box-shadow: 1px 1px 10px inset #ae5618;
+.header-background {
+    background: #964B00;
 }
 
-.cursor-pointer {
-    cursor: pointer;
+.page-logo,
+.footer-logo {
+    text-shadow: 1px 2px #000;
 }
 
-.font-900 {
-    font-weight: 900;
+.nav-item {
+    color: #fff;
+    font-size: 20px;
 }
 
-header a:hover {
+.nav-item a:hover {
     font-weight: 900;
     text-decoration: underline;
 }
 
+.border-end,
+.border-bottom {
+    border-color: #964B00 !important;
+}
+
+.section-background-about,
+.section-background-contact {
+    background:rgb(150, 75, 0, 0.6);
+}
+
+.choc-bar {
+    width: 30px;
+}
+
+.section-title {
+    color: #964B00;
+    font-size: 25px;
+}
+
+.section-descr {
+    font-size: 18px;
+}
+
+.card-title {
+    font-size: 25px;
+}
+
+.card-text {
+    font-size: 15px;
+}
+
 #products .btn:hover {
     font-size: 1.1rem;
+}
+
+.list-without-style {
+    list-style-type: none;
 }
 
 .is-valid {
@@ -37,3 +73,137 @@ header a:hover {
     border-color: #dc3545 !important;
     background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 12 12' width='12' height='12' fill='none' stroke='%23dc3545'%3e%3ccircle cx='6' cy='6' r='4.5'/%3e%3cpath stroke-linejoin='round' d='M5.8 3.6h.4L6 6.5z'/%3e%3ccircle cx='6' cy='8.2' r='.6' fill='%23dc3545' stroke='none'/%3e%3c/svg%3e") !important;
 }
+
+.invalid-feedback {
+    font-weight: 900;
+    color: #964B00;
+}
+
+.section-about-container {
+    height: 400px;
+}
+
+.section-about-title {
+    font-size: 40px;
+}
+
+.section-about-descr {
+    font-size: 19px;
+}
+
+.section-about-img {
+    max-width: 330px;
+}
+
+.section-about-title-lg {
+    font-size: 50px;
+}
+
+.section-about-descr-lg {
+    font-size: 15px;
+}
+
+.section-about-container-xl {
+    height: 700px;
+}
+
+.section-about-title-xl {
+    font-size: 70px;
+}
+
+.section-about-descr-xl {
+    font-size: 30px;
+}
+
+.section-about-img-xl {
+    max-width: 800px;
+}
+
+@media (max-width: 1800px) {
+
+    .section-about-container-xl {
+        height: 400px;
+    }
+    
+    .section-about-title-xl {
+        font-size: 50px;
+    }
+    
+    .section-about-descr-xl {
+        font-size: 15px;
+    }
+    
+    .section-about-img-xl {
+        max-width: 330px;
+    }
+
+}
+
+@media (max-width: 1030px) {
+
+    .nav-item {
+        color: #fff;
+        font-size: 12px;
+    }
+
+}
+
+@media (min-width: 200px) and (max-width: 767px) {
+
+    .logo-background {
+        height: 115px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .menu-background {
+        background: #fff;
+    }
+
+    .nav-item {
+        font-size: 10px;
+        color: #000;
+    }
+
+    .section-title {
+        font-size: 17px;
+    }
+
+    .section-descr {
+        font-size: 10px;
+    }
+
+    .section-about-container {
+        height: 350px;
+    }
+
+    .section-about-title {
+        font-size: 20px;
+    }
+
+    .section-about-descr {
+        font-size: 11px;
+    }
+    
+    .section-about-img {
+        max-width: 250px;
+    }
+
+    .card-title {
+        font-size: 20px;
+    }
+
+    .card-text {
+        font-size: 10px;
+    }
+
+    .list-without-style li {
+        font-size: 12px;
+    }
+
+    .flaticon-link {
+        font-size: 10px;
+    }
+}
+
