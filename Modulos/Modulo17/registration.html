@@ -16,19 +16,21 @@
         <title>Módulo 17</title>
     </head>
     <body>
-        <header>
-            <div class="container">
-                <div class="row">
-                    <div class="col-12 col-lg-6 title-background">
-                        <h1 class="p-4 text-center text-white">ChocWorld</h1>
-                    </div>
-                    <div class="col-12 col-lg-6">
-                        <ul class="nav nav-fill">
-                            <li class="nav-item"><a class="nav-link text-reset cursor-pointer border-end active" href="./index.html">Home <i class="fa-solid fa-house"></i></a></li>
-                            <li class="nav-item"><a class="nav-link text-reset cursor-pointer" href="#registration">Cadastra-se</a></li>
-                        </ul>
-                    </div>
+        <header class="container">
+            <div class="row d-md-flex align-items-md-center header-background p-md-4 p-lg-5">
+                <div class="col-12 col-md-6 logo-background shadow-md">
+                    <h1 class="page-logo text-white fw-bold m-md-0">ChocWorld</h1>
                 </div>
+                <nav class="col-12 col-md-6 menu-background border-bottom">
+                    <ul class="nav nav-fill">
+                        <li class="nav-item">
+                            <a class="nav-link text-reset cursor-pointer border-end active" href="./index.html">Home <i class="fa-solid fa-house"></i></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-reset cursor-pointer" href="#registration">Cadastra-se</a>
+                        </li>
+                    </ul>
+                </nav>
             </div>
         </header>
 
@@ -126,23 +128,39 @@
             </form>
         </section>
 
-        <footer class="bg-dark mt-5 p-5 d-md-flex d-lg-flex justify-content-md-between justify-content-lg-between">
-            <div class="mb-5">
-                <span class="text-white font-900 fs-2">ChocWorld</span>
+        <footer class="bg-dark">
+            <div class="container pt-5 pb-5 ps-md-5">
+                <div class="row d-grid g-4 d-md-flex">
+                    <div class="col-12 col-md-4">
+                        <h2 class="fs-1 text-white footer-logo fw-bold">ChocWorld</h2>
+                    </div>
+
+                    <div class="col-12 col-md-4 text-white">
+                        <h3 class="fs-5 fw-bolder">Produtos</h3>
+                        <ul class="list-without-style">
+                            <li>Barras de chocolate</li>
+                            <li>Bebidas de chocolate</li>
+                            <li>Bombons</li>
+                            <li>Bolos</li>
+                        </ul>
+                    </div>
+
+                    <div class="col-12 col-md-4 text-white">
+                        <h3 class="fs-5 fw-bolder">Contatos</h3>
+                        <ul class="list-without-style">
+                            <li class="text-reset">(48) 99999-9999</li>
+                            <li>chocworld@mail.com</li>
+                        </ul>
+                    </div>
+                </div>
             </div>
-            <div class="d-flex flex-column mb-5">
-                <span class="text-white font-900">Produtos</span>
-                <span class="text-white">Chocolates</span>
-                <span class="text-white">Bebidas de chocolate</span>
-            </div>
-            <div class="d-flex flex-column">
-                <span class="text-white font-900">Contatos</span>
-                <span class="text-white">(48) 99999-9999</span>
-                <span class="text-white">chocworld@mail.com</span>
+            <div class="d-flex flex-column justify-content-center align-items-center mt-md-5 pb-4">
+                <a class="text-white flaticon-link" href="https://www.flaticon.com/free-icons/snack" title="snack icons">Snack icons created by smalllikeart - Flaticon</a>
+                <a class="text-white flaticon-link" href="https://www.flaticon.com/free-icons/chocolate" title="chocolate icons">Chocolate icons created by Iconic Panda - Flaticon</a>
             </div>
         </footer>
 
         <script src="./libs/bootstrap/js/bootstrap.bundle.min.js"></script>
-        <script type="text/javascript" src="./assets/js/script.js"></script>
+        <script type="text/javascript" src="./assets/js/script-2.js"></script>
     </body>
 </html>
