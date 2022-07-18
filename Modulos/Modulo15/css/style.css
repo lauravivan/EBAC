@@ -56,8 +56,7 @@ body {
 }
 
 .box__content input:focus {
-    border: none;
-    outline: 2px solid #000;
+    outline: none;
 }
 
 .box__content input::placeholder {
@@ -67,14 +66,12 @@ body {
 .valid,
 .valid:focus {
     background-color: #8fbc8f !important;
-    border: 2px solid rgb(74, 168, 50) !important;
     outline: 2px solid rgb(74, 168, 50) !important;
 }
 
 .invalid,
 .invalid:focus {
     background-color: #e9967a !important;
-    border: 2px solid #a83232 !important;
     outline: 2px solid #a83232 !important;
 }
 
