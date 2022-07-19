@@ -166,6 +166,10 @@ body {
         color: #000;
     }
 
+    .nav-item-reg {
+        font-size: 11px;
+    }
+
     .section-title {
         font-size: 17px;
     }
@@ -204,6 +208,14 @@ body {
 
     .flaticon-link {
         font-size: 10px;
+    }
+
+    #registration h3 {
+        font-size: 20px;
+    }
+    
+    #registration h6 {
+        font-size: 12px;
     }
 }
 
