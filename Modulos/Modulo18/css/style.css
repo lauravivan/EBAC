@@ -230,6 +230,10 @@
 		height: 250px;
 	}
 
+	.navbar-brand #brand-icon {
+		max-width: 50px;
+	}
+
 }
 
 @media (max-width: 577px) {
@@ -263,6 +267,10 @@
 
 	.card img {
 		height: 250px;
+	}
+
+	.navbar-brand #brand-icon {
+		max-width: 45px;
 	}
 
 }
